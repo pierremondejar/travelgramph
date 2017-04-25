@@ -12,9 +12,11 @@ body{
 
 .slide-1,.slide-2,.slide-3,.slide-4,.welcome{
 	width: 100%;
-	max-height: 500px;
+	/*max-height: 500px;*/
 	height: 100vh;
 	position: absolute;
+
+	
 
 }
 
@@ -53,12 +55,20 @@ body{
 
 .welcome{
 	text-align: center;
+	display: table;
+	
 }
 
-.welcome > h1{
+.welcome > div{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.welcome> div > h1{
 	color: #fff;
-	font-size: 150px;
-	top:50%;
+	font-size: 5em;
+
+	
 
 }
 
